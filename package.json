@@ -1,0 +1,25 @@
+{
+    "name": "ECMAScript6",
+    "version": "1.0.0",
+    "description": "ES6学习记录",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "bulid": "babel src --out-dir dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Cyclone77/ECMAScript6.git"
+    },
+    "keywords": [],
+    "author": "CyCyclone77",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Cyclone77/ECMAScript6/issues"
+    },
+    "homepage": "https://github.com/Cyclone77/ECMAScript6#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1"
+    }
+}
