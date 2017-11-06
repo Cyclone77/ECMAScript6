@@ -49,3 +49,12 @@ function mySettime() {
     }, 0)
 }
 mySettime();
+
+//函数默认值
+console.log("-----");
+const myArgums = (x = 10) => x;
+console.log(myArgums()) // 10 -- 没有提供任何值，所以在 myFunc 中 10 做为默认值分配给 x
+console.log(myArgums(5)) // 5 -- 有提供一个参数值，所以在 myFunc 中 x 等于 5 
+
+console.log(myArgums(undefined)) // 10 -- 提供 undefined 值，所以默认值被分配给 x 
+console.log(myArgums(null)) // null -- 提供一个值 (null)，详细资料请见下文
