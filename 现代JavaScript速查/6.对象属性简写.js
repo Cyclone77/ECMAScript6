@@ -32,3 +32,10 @@ console.log(o.method());
 //         return "Hello!";
 //     }
 // };
+
+class Polygon {
+    constructor(height, width) {
+        this.height = height;
+        this.width = width;
+    }
+}
